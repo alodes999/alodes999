@@ -29,10 +29,10 @@ There is one method in this class, that takes input from a user where date and r
         @members[treater] += amount_to_split
       end
 
-
 ```
 
 for whether or not the bill should be split between one person, or the group when it is passed to my sub-class.  The rest of this method plugs the values into the prospective hashes, by using the .store method in Ruby's Hash class:
+
 
 ```ruby
 
