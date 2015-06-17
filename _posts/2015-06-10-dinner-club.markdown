@@ -28,7 +28,6 @@ There is one method in this class, that takes input from a user where date and r
         amount_to_split = mealevent.split
         @members[treater] += amount_to_split
       end
-
 ```
 
 for whether or not the bill should be split between one person, or the group when it is passed to my sub-class.  The rest of this method plugs the values into the prospective hashes, by using the .store method in Ruby's Hash class:
@@ -42,7 +41,6 @@ for whether or not the bill should be split between one person, or the group whe
     
       return @members
     end
-
 ``` 
 
 CheckSplitter is my sub-class which calculates the amount to split between each person, given meal amounts, tip percentages and number of people eating.  
@@ -64,8 +62,8 @@ CheckSplitter is my sub-class which calculates the amount to split between each 
       splitbill = total_cost / @diners 
       splitbill = splitbill.round(2)
     end
-
 ```
+
 total_cost in this case is a sub method to calculate the cost of the meal plus the tip.
  
 In this assignment I also use an app.rb file as an interface to pull the information I need to use via puts/gets information, and to run the methods I've designed in DinnerClub.  From it, I gather the date of the event, who all attended, how much the meal cost, how much of a tip was there, and whether the meal was a treat from one person or not, and if so, who did the treating:
@@ -83,6 +81,5 @@ In this assignment I also use an app.rb file as an interface to pull the informa
       attendees_array = attendees.split(", ")
       puts club1.meal(date: date, cost: cost, tip_percent: tip_per, attendees: attendees_array, restaurant: where_we_ate)
     end
-
 ```
 I use a while loop to enable multiple event entry, so when we say yes when prompted if we want to add a meal or additional meals, it loops through to add another event, and when we say something other than yes, it ends the loop and gives us our final values for that club.
