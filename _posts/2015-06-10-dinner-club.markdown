@@ -11,8 +11,8 @@ The assignment is to create a program to manage a DinnerClub.  This program is s
 
 To accomplish this, I wrote a DinnerClub class, which currently stores the values in two separate hashes, one hash listing the members with their hash values being the balance spent on DinnerClub outings.  The other hash stores the date of each outing and a value which is also a hash with the restaurant name as key and an array of attendees for that outing as value of that sub-hash.  
 
-My DinnerClub class has two attributes to it, members, and "meal_list", which are the two hashes described above. 
-There is one method in this class, that takes input from a user where date and restaurant are strings, cost and tip_percent are integers, attendees is an array, and treater is an optional argument, defaulting to nil.  This argument acts as a switch for my conditional statement, for whether or not the bill should be split between one person, or the group when it is passed to my sub-class.  The rest of this method plugs the values into the prospective hashes, by using the .store method in Ruby's Hash class:
+My DinnerClub class has two attributes to it, members, and 'meal_list', which are the two hashes described above. 
+There is one method in this class, that takes input from a user where date and restaurant are strings, cost and 'tip_percent' are integers, attendees is an array, and treater is an optional argument, defaulting to nil.  This argument acts as a switch for my conditional statement, for whether or not the bill should be split between one person, or the group when it is passed to my sub-class.  The rest of this method plugs the values into the prospective hashes, by using the .store method in Ruby's Hash class:
 
 ```ruby
 
