@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Rock Paper Scissors" Project
+title:  "Rock Paper Scissors Project"
 date:   2015-06-04  
 categories: code
 ---
