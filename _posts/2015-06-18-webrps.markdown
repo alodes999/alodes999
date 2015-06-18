@@ -7,7 +7,7 @@ categories: code
 
 We were tasked today with making an all HTML version of our favorite game, Rock Paper Scissors (it has to be our favorite, right?  We've spent so much time on versions it so far! :slight-sarcasm: ) We were told it could use images and all that, but we were to stay away from any CSS.  It's just to get the feel of using some of the tags.  I know my site isn't the best formatted HTML out there, but if you're curious, here's the game site mine's at:
 
-http://alodes999rps.bitballoon.com/
+<a href=http://alodes999rps.bitballoon.com/>alodes999rps.bitballoon.com</a>
 
 It was pretty fun finding the images to use with it, and the HTML itself wasn't too bad to use or figure out.  I could have probably dug way deeper on that part, but I stuck with simple.  Complex will come later!
 
