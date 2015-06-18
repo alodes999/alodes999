@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Web RPS Fun"
+date:   2015-06-18 
+categories: code
+---
+
+We were tasked today with making an all HTML version of our favorite game, Rock Paper Scissors (it has to be our favorite, right?  We've spent so much time on versions it so far! :slight-sarcasm: ) We were told it could use images and all that, but we were to stay away from any CSS.  It's just to get the feel of using some of the tags.  I know my site isn't the best formatted HTML out there, but if you're curious, here's the game site mine's at:
+
+http://alodes999rps.bitballoon.com/
+
+It was pretty fun finding the images to use with it, and the HTML itself wasn't too bad to use or figure out.  I could have probably dug way deeper on that part, but I stuck with simple.  Complex will come later!
+
+The rest of today has been working on more ORM modifications and refactoring of our Inventory Manager project.  Soon that's going to get moved over to the web as well, so that'll be the next site (at least I'm guessing) that we put out.  It's coming quicker and quicker it seems, and we're only just about 3 weeks done... but then again that is 1/4 of the total class.  Time sure does fly when you're having fun (and yes, even though this is still all complex and mind-bending, it is extraordinarily fun.)
