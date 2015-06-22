@@ -11,7 +11,7 @@ So far, after some initial hesitation and frustration on what to start on, I thi
 
 This isn't ported to an actual website yet, but Sinatra does let you run it on a web browser as localhost.  Here's a link to the repository that holds this project, in case you'd like to take a peek at the code or what have you:
 
-<a href="https://github.com/alodes999/6-19-web-sqlproject">github.com/alodes999/6-19-web-sqlproject</a>
+<a href=https://github.com/alodes999/6-19-web-sqlproject>github.com/alodes999/6-19-web-sqlproject</a>
 
 
 We're still working on refining the pages and adding new functionality, but for a start, I think it's a pretty solid foundation for what we'll be adding in the future.  Sometime this week we'll be working on a new project, so that's going to be exciting.  We do have to go over CSS and other stuff first, so we'll have some more building on what we have learned.
