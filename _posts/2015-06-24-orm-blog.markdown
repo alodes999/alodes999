@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ORM Discussion Blog"
-date:   2015-06-22 
+date:   2015-06-24
 categories: code
 ---
 
