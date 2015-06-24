@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "ORM Discussion Blog"
+date:   2015-06-22 
+categories: code
+---
+
+A few questions that our instructor Sumeet asked us to answer!
+
+- What is an ORM??
+
+  ORM stands for Object Relationship Model.  It's a way for us to take database entries and create Ruby Objects that we can work with.  We
+can't directly use Ruby on our SQL data, so we need some way of importing the data to use.  Ruby Objects allow us flexibility in dealing
+with this data, as we have Ruby methods interact with the data, and to modify it by calling on the Object data.  The biggest issue is making
+sure the data in our Object stays synched with the data in our tables.
+
+- How does your ORM help you get all of a particular table's rows from the database?
+
+  The ORM handles all of our database calls.  It calls the table, and brings back the information in that table's rows that we want to 
+interact with.  SQL returns its data in Hashes, and Hashes are nowhere near as helpful or flexible in how we can interact with the data.
+We use the returns from those SQL calls and plug that information into Objects which are easier to work with, for the reasons listed in the 
+above answer.  The ORM handles all of this in one step, so we don't have to constantly make those calls or make the Objects ourselves.
+
+- How does your ORM represent rows from a table, given that Ruby doesn't have a Table data structure?
+
+  ORMs represent rows by instantiating Objects with attributes matching the Database Table's rows.  By doing this, and keeping the Object
+data in synch, we have a way of working with the table row without actually having to work directly with the table row for each step.  This also allows us to make multiple changes to the Object, and then saving all of the attributes into the corresponding row in the Database.  This cuts down on trips to the Database, and the trips are where we save a user time, as trips to and from the Database are the biggest issues of latency for a web application.
+
+- How does your ORM convert rows from a table into the Ruby data structure (which you identified in the previous question)?
+
+  My ORM converts rows by plugging in the Hash SQL returns and using that Hash's key/value pairing to set(or update) the Object's attributes.
+By making sure you follow a naming convention keeping your table column names the same as your attribute names, you then are able to set the attribute values equal to the values in the Hash that SQL returns.
