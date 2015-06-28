@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "4 Weeks Gone, 8 More to Go"
-date:   2015-06-27
+date:   2015-06-28
 categories: code
 ---
 
