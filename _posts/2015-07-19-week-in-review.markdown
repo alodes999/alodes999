@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Week 7 In Review"
+date:   2015-07-12
+categories: code
+---
+
+It was another intense and busy week for us Codets at the School (Hmm.. codets.... I kinda like it, we'll see if it sticks!).  Another week of learning new tools and tricks for our future careers, and boy does it get more and more intense piling each thing on top of everything else.  Someone compared the class to sticking a shotgun of ideas and knowledge at your temple, pulling the trigger, and seeing what you can sort out and pick up.  Graphic?  Sure.  Accurate?  Very much so.  It's crazy how much is getting thrown at us, and even crazier that we are picking out the pieces and integrating it, making it something we can learn from and use. 
+
+We picked up and added ActiveRecord to our toolbelts this week.  I will say, after building and using our own ORMs for so long, it was a bittersweet moment.  For all of 5 seconds.  At least until we saw what ActiveRecord could do.  It is comforting knowing that we built our own and used them for such a big part of the class.  Having that to go back to and see I think will be a very nice tool to have.  It also has made knowing what (at least part of) ActiveRecord can do a very nice and... not necessarily seamless, but much smoother, transition.  Sumeet set us up for the smooth transition by having us follow conventions when we built our original ORM, having us name our methods after the new ActiveRecord methods would be, following naming conventions for models and controllers, etc.  
+
+Authentication was another new thing added this last week.  Being able to do log-in features and keeping sites secure (well, as secure as we can at this point... which I know isn't very) is a pretty cool thing as well.  Having the tool to do that is a nifty way, and even though it's not the most secure thing out there, having a pretty secure tool to test around with and use is pretty awesome.
+
+Another new addition this week was Bundler, and the premise there is pretty nice as well.  Throwing all of our dependencies into a group and sending that with the application we're building is a prety nice deal.  As long as that's set up right, we won't have to worry about the future uses of our program not having the dependencies we needed when we built it.  Going along with that, we also learned how to deploy our apps to Heroku.  Heroku is a nice hosting service for our applications.  They have databases that we can attach to the programs we use and have a public place for our apps to live and connect to.  As of yet, I haven't successfully been able to access an app I've put up, as I constantly get the same error.  It will be something I check with Sumeet on this coming week.
+
+Speaking of this coming week, we'll finally be adding Rails to the mix.  I'm excited for it, I think the thought of the additional convention rigidity is kind of appealing to me.  I'll know how it needs to be handled, how it needs to be expressed, and I can plug into that and use it.  Learning those conventions is kind of exciting, and terrifying as well, being it's just another pellet in that knowledge shotgun.  Another tool and ability for us to add on, and then the following week is our week-long group projects.  More on that next post!
